@@ -1,0 +1,31 @@
+.videos{
+    width:auto;
+float: left;
+margin-left: 10px;
+margin: 5px;
+height: auto;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+.galeria{
+    margin:5px;
+    border:1px solid;
+    float: left;
+    width: 33vw;
+    
+}  
+    
+div.galeria img{
+    width: 100%;
+    height: auto;
+   
+
+}
+.descripcion{
+    padding: 10px;
+    color: chartreuse;
+    text-align: center;
+}

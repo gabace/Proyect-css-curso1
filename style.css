@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(to right, rgb(187, 121, 113), rgb(96, 172, 96));
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-color: darkslateblue;
+color:chartreuse;
+margin: 0;
+padding: 20px;
+}
+header{
+    text-align: center;
+    
+}
+.active{
+    background-color: brown;
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(131, 113, 124);
+    overflow: hidden;
+   
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    padding: 10px;
+    color: rgb(49, 1, 1);
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color:rgb(194, 175, 175);
+}
+
+footer p{
+
+background-color: darkslateblue;
+color:chartreuse;
+padding: 20px;
+margin:0;
+bottom: 0;
+position: fixed;
+width: 100%;
+
+}

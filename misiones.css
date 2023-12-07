@@ -1,0 +1,31 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    border:2px  ;
+    letter-spacing: 1px;
+   margin: 30px;
+    font-size: 1.5rem;
+    background-color: bisque;
+}
+th{
+    border:3px solid blueviolet;
+    padding: 10px;
+    background-color: rgb(177, 167, 156);
+}
+td{
+    border:2px solid blueviolet;
+    
+    text-align: left;
+    padding: 10px;
+}
+.center:not(.contenedor){
+    text-align: center;
+}
+.subtitulo{
+    margin:0;
+    padding: 15px;
+    color: chartreuse;
+}
